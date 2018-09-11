@@ -1,0 +1,63 @@
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/">
+	<SOAP-ENV:Header />
+	<SOAP-ENV:Body>
+		<ns2:GetTerminalDetailsResponse
+			xmlns:ns2="http://api.jasperwireless.com/ws/schema" ns2:requestId="CCCaHZXag3A0czO/">
+			<ns2:correlationId>1037514348580302848</ns2:correlationId>
+			<ns2:version>7.28</ns2:version>
+			<ns2:build>Unknown</ns2:build>
+			<ns2:timestamp>2018-09-06T01:32:35.901Z</ns2:timestamp>
+			<ns2:terminals>
+				<ns2:terminal msisdn="861064647318249">
+					<ns2:iccid>89860617040064578877</ns2:iccid>
+					<ns2:suspended>N</ns2:suspended>
+					<ns2:ratePlan>741WLW015821_MON-IND_500M_SP</ns2:ratePlan>
+					<ns2:status>ACTIVATED_NAME</ns2:status>
+					<ns2:monthToDateUsage>5.978</ns2:monthToDateUsage>
+					<ns2:overageLimitReached>false</ns2:overageLimitReached>
+					<ns2:overageLimitOverride>DEFAULT</ns2:overageLimitOverride>
+					<ns2:dateActivated>2018-08-01T19:12:15.459Z</ns2:dateActivated>
+					<ns2:dateAdded>2018-07-26T06:15:38.478Z</ns2:dateAdded>
+					<ns2:dateModified>2018-08-31T02:38:46.651Z</ns2:dateModified>
+					<ns2:dateShipped>2018-07-25T16:00:00.000Z</ns2:dateShipped>
+					<ns2:monthToDateDataUsage>5.978</ns2:monthToDateDataUsage>
+					<ns2:monthToDateSMSUsage>0</ns2:monthToDateSMSUsage>
+					<ns2:monthToDateVoiceUsage>0</ns2:monthToDateVoiceUsage>
+					<ns2:secureSimId />
+					<ns2:custom1 />
+					<ns2:custom2 />
+					<ns2:custom3 />
+					<ns2:rating />
+					<ns2:secureSimUsernameCopyRule>N</ns2:secureSimUsernameCopyRule>
+					<ns2:secureSimPasswordCopyRule>N</ns2:secureSimPasswordCopyRule>
+					<ns2:accountId>101410429</ns2:accountId>
+					<ns2:fixedIpAddress xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+						xsi:nil="true" />
+					<ns2:ctdSessionCount>61</ns2:ctdSessionCount>
+					<ns2:customerCustom1 />
+					<ns2:customerCustom2 />
+					<ns2:customerCustom3 />
+					<ns2:customerCustom4 />
+					<ns2:customerCustom5 />
+					<ns2:operatorCustom1 />
+					<ns2:operatorCustom2 />
+					<ns2:operatorCustom3 />
+					<ns2:operatorCustom4 />
+					<ns2:operatorCustom5 />
+					<ns2:imsi>460067024074746</ns2:imsi>
+					<ns2:primaryICCID />
+					<ns2:imei>8686210235409700</ns2:imei>
+					<ns2:globalSimType />
+					<ns2:version>0</ns2:version>
+					<ns2:custom4 />
+					<ns2:custom5 />
+					<ns2:custom6 />
+					<ns2:custom7 />
+					<ns2:custom8 />
+					<ns2:custom9 />
+					<ns2:custom10 />
+				</ns2:terminal>
+			</ns2:terminals>
+		</ns2:GetTerminalDetailsResponse>
+	</SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
